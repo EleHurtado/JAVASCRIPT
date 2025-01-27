@@ -1,0 +1,1 @@
+Las estructuras de control en JavaScript son instrucciones que permiten manejar el flujo de ejecución de un programa. Estas estructuras, también conocidas como sentencias de control, son fundamentales para el desarrollo de algoritmos que requieren una ejecución no lineal. 
