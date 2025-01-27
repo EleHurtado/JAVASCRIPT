@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 10 - Promedio de Edades</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    label, button {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    #resultados {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Promedio de Edades de los Estudiantes</h1>
+
+  <p>Ingresa las edades de los estudiantes de cada turno (separadas por coma):</p>
+
+  <label for="manana">Turno Mañana (5 estudiantes):</label>
+  <input type="text" id="manana" placeholder="Ejemplo: 20, 21, 22, 23, 24">
+  <br>
+
+  <label for="tarde">Turno Tarde (6 estudiantes):</label>
+  <input type="text" id="tarde" placeholder="Ejemplo: 25, 26, 27, 28, 29, 30">
+  <br>
+
+  <label for="noche">Turno Noche (11 estudiantes):</label>
+  <input type="text" id="noche" placeholder="Ejemplo: 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28">
+  <br>
+
+  <button onclick="calcularPromedios()">Calcular Promedios</button>
+
+  <div id="resultados"></div>
+
+  <!-- Enlazamos el archivo JavaScript externo -->
+  <script src="Ejercicio10.js"></script>
+</body>
+</html>
